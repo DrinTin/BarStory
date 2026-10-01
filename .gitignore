@@ -1,0 +1,31 @@
+# Production configuration
+/core/config/config.inc.php
+
+# MODX cache and installation packages
+/core/cache/
+/core/packages/
+/assets/components/phpthumbof/cache/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment secrets
+.env
+.env.*
+
+# Database dumps and backups
+/dumps/
+/backups/
+*.sql.gz
+*.sql.zip
+
+# Node.js dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
