@@ -1,0 +1,12 @@
+<form class="modal__form form" action=""> <span class="form__title">Оставить заявку</span>
+    <input class="form__input" type="text" name="name" placeholder="Ваше имя" required="">
+    <input class="form__input" type="text" name="phone" placeholder="Телефон" required="">
+    <button class="form__btn btn" type="submit">Оставить заявку</button>
+    <div class="form__policy">
+        <label class="form__checkbox">
+            <input type="checkbox" name="policy" required="">
+            <div></div>
+            <span>Я даю согласие на <a href="{$_modx->resource['contacts-policy']}" target="blank">обработку персональных данных </a></span>
+        </label>
+    </div>
+</form>

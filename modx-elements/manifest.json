@@ -1,0 +1,794 @@
+[
+  {
+    "id": 1,
+    "name": "Главная",
+    "category": {
+      "id": 0,
+      "name": null
+    },
+    "type": "templates",
+    "source table": "modx_site_templates",
+    "output file": "modx-elements/templates/Главная.html"
+  },
+  {
+    "id": 2,
+    "name": "Landing",
+    "category": {
+      "id": 0,
+      "name": null
+    },
+    "type": "templates",
+    "source table": "modx_site_templates",
+    "output file": "modx-elements/templates/Landing.html"
+  },
+  {
+    "id": 1,
+    "name": "fiDefaultEmailTpl",
+    "category": {
+      "id": 5,
+      "name": "FormIt"
+    },
+    "type": "chunks",
+    "source table": "modx_site_htmlsnippets",
+    "output file": "modx-elements/chunks/fiDefaultEmailTpl.html"
+  },
+  {
+    "id": 2,
+    "name": "fiDefaultFiarTpl",
+    "category": {
+      "id": 5,
+      "name": "FormIt"
+    },
+    "type": "chunks",
+    "source table": "modx_site_htmlsnippets",
+    "output file": "modx-elements/chunks/fiDefaultFiarTpl.html"
+  },
+  {
+    "id": 3,
+    "name": "fiDefaultOptGroupTpl",
+    "category": {
+      "id": 5,
+      "name": "FormIt"
+    },
+    "type": "chunks",
+    "source table": "modx_site_htmlsnippets",
+    "output file": "modx-elements/chunks/fiDefaultOptGroupTpl.html"
+  },
+  {
+    "id": 4,
+    "name": "fiDefaultOptionTpl",
+    "category": {
+      "id": 5,
+      "name": "FormIt"
+    },
+    "type": "chunks",
+    "source table": "modx_site_htmlsnippets",
+    "output file": "modx-elements/chunks/fiDefaultOptionTpl.html"
+  },
+  {
+    "id": 5,
+    "name": "tpl.AjaxForm.example",
+    "category": {
+      "id": 6,
+      "name": "AjaxForm"
+    },
+    "type": "chunks",
+    "source table": "modx_site_htmlsnippets",
+    "output file": "modx-elements/chunks/tpl.AjaxForm.example.html"
+  },
+  {
+    "id": 6,
+    "name": "PAGE",
+    "category": {
+      "id": 10,
+      "name": "Template"
+    },
+    "type": "chunks",
+    "source table": "modx_site_htmlsnippets",
+    "output file": "modx-elements/chunks/PAGE.html"
+  },
+  {
+    "id": 7,
+    "name": "HEAD",
+    "category": {
+      "id": 10,
+      "name": "Template"
+    },
+    "type": "chunks",
+    "source table": "modx_site_htmlsnippets",
+    "output file": "modx-elements/chunks/HEAD.html"
+  },
+  {
+    "id": 8,
+    "name": "HEADER",
+    "category": {
+      "id": 10,
+      "name": "Template"
+    },
+    "type": "chunks",
+    "source table": "modx_site_htmlsnippets",
+    "output file": "modx-elements/chunks/HEADER.html"
+  },
+  {
+    "id": 9,
+    "name": "FOOTER",
+    "category": {
+      "id": 10,
+      "name": "Template"
+    },
+    "type": "chunks",
+    "source table": "modx_site_htmlsnippets",
+    "output file": "modx-elements/chunks/FOOTER.html"
+  },
+  {
+    "id": 10,
+    "name": "SCRIPTS",
+    "category": {
+      "id": 10,
+      "name": "Template"
+    },
+    "type": "chunks",
+    "source table": "modx_site_htmlsnippets",
+    "output file": "modx-elements/chunks/SCRIPTS.html"
+  },
+  {
+    "id": 11,
+    "name": "MODALS",
+    "category": {
+      "id": 10,
+      "name": "Template"
+    },
+    "type": "chunks",
+    "source table": "modx_site_htmlsnippets",
+    "output file": "modx-elements/chunks/MODALS.html"
+  },
+  {
+    "id": 12,
+    "name": "callback-form-tpl",
+    "category": {
+      "id": 19,
+      "name": "Forms"
+    },
+    "type": "chunks",
+    "source table": "modx_site_htmlsnippets",
+    "output file": "modx-elements/chunks/callback-form-tpl.html"
+  },
+  {
+    "id": 13,
+    "name": "callback-mail-tpl",
+    "category": {
+      "id": 19,
+      "name": "Forms"
+    },
+    "type": "chunks",
+    "source table": "modx_site_htmlsnippets",
+    "output file": "modx-elements/chunks/callback-mail-tpl.html"
+  },
+  {
+    "id": 14,
+    "name": "events-form-tpl",
+    "category": {
+      "id": 19,
+      "name": "Forms"
+    },
+    "type": "chunks",
+    "source table": "modx_site_htmlsnippets",
+    "output file": "modx-elements/chunks/events-form-tpl.html"
+  },
+  {
+    "id": 1,
+    "name": "pdoResources",
+    "category": {
+      "id": 2,
+      "name": "pdoTools"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/pdoResources.php"
+  },
+  {
+    "id": 2,
+    "name": "pdoUsers",
+    "category": {
+      "id": 2,
+      "name": "pdoTools"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/pdoUsers.php"
+  },
+  {
+    "id": 3,
+    "name": "pdoCrumbs",
+    "category": {
+      "id": 2,
+      "name": "pdoTools"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/pdoCrumbs.php"
+  },
+  {
+    "id": 4,
+    "name": "pdoField",
+    "category": {
+      "id": 2,
+      "name": "pdoTools"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/pdoField.php"
+  },
+  {
+    "id": 5,
+    "name": "pdoSitemap",
+    "category": {
+      "id": 2,
+      "name": "pdoTools"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/pdoSitemap.php"
+  },
+  {
+    "id": 6,
+    "name": "pdoNeighbors",
+    "category": {
+      "id": 2,
+      "name": "pdoTools"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/pdoNeighbors.php"
+  },
+  {
+    "id": 7,
+    "name": "pdoPage",
+    "category": {
+      "id": 2,
+      "name": "pdoTools"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/pdoPage.php"
+  },
+  {
+    "id": 8,
+    "name": "pdoMenu",
+    "category": {
+      "id": 2,
+      "name": "pdoTools"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/pdoMenu.php"
+  },
+  {
+    "id": 9,
+    "name": "pdoTitle",
+    "category": {
+      "id": 2,
+      "name": "pdoTools"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/pdoTitle.php"
+  },
+  {
+    "id": 10,
+    "name": "pdoArchive",
+    "category": {
+      "id": 2,
+      "name": "pdoTools"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/pdoArchive.php"
+  },
+  {
+    "id": 11,
+    "name": "MobileDetect",
+    "category": {
+      "id": 3,
+      "name": "MobileDetect"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/MobileDetect.php"
+  },
+  {
+    "id": 12,
+    "name": "getImageList",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/getImageList.php"
+  },
+  {
+    "id": 13,
+    "name": "migxGetRelations",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/migxGetRelations.php"
+  },
+  {
+    "id": 14,
+    "name": "migx",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/migx.php"
+  },
+  {
+    "id": 15,
+    "name": "migxLoopCollection",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/migxLoopCollection.php"
+  },
+  {
+    "id": 16,
+    "name": "migxResourceMediaPath",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/migxResourceMediaPath.php"
+  },
+  {
+    "id": 17,
+    "name": "migxImageUpload",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/migxImageUpload.php"
+  },
+  {
+    "id": 18,
+    "name": "migxChunklistToJson",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/migxChunklistToJson.php"
+  },
+  {
+    "id": 19,
+    "name": "migxSwitchDetailChunk",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/migxSwitchDetailChunk.php"
+  },
+  {
+    "id": 20,
+    "name": "getSwitchColumnCol",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/getSwitchColumnCol.php"
+  },
+  {
+    "id": 21,
+    "name": "getDayliMIGXrecord",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/getDayliMIGXrecord.php"
+  },
+  {
+    "id": 22,
+    "name": "filterbytag",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/filterbytag.php"
+  },
+  {
+    "id": 23,
+    "name": "migxObjectMediaPath",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/migxObjectMediaPath.php"
+  },
+  {
+    "id": 24,
+    "name": "exportMIGX2db",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/exportMIGX2db.php"
+  },
+  {
+    "id": 25,
+    "name": "preparedatewhere",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/preparedatewhere.php"
+  },
+  {
+    "id": 26,
+    "name": "migxJsonToPlaceholders",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/migxJsonToPlaceholders.php"
+  },
+  {
+    "id": 27,
+    "name": "migxGetCollectionTree",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/migxGetCollectionTree.php"
+  },
+  {
+    "id": 28,
+    "name": "migxIsNewObject",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/migxIsNewObject.php"
+  },
+  {
+    "id": 29,
+    "name": "migx_example_validate",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/migx_example_validate.php"
+  },
+  {
+    "id": 30,
+    "name": "migxHookAftercollectmigxitems",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/migxHookAftercollectmigxitems.php"
+  },
+  {
+    "id": 31,
+    "name": "migxAutoPublish",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/migxAutoPublish.php"
+  },
+  {
+    "id": 32,
+    "name": "migxGetObject",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/migxGetObject.php"
+  },
+  {
+    "id": 33,
+    "name": "FormIt",
+    "category": {
+      "id": 5,
+      "name": "FormIt"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/FormIt.php"
+  },
+  {
+    "id": 34,
+    "name": "FormItRetriever",
+    "category": {
+      "id": 5,
+      "name": "FormIt"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/FormItRetriever.php"
+  },
+  {
+    "id": 35,
+    "name": "FormItIsChecked",
+    "category": {
+      "id": 5,
+      "name": "FormIt"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/FormItIsChecked.php"
+  },
+  {
+    "id": 36,
+    "name": "FormItIsSelected",
+    "category": {
+      "id": 5,
+      "name": "FormIt"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/FormItIsSelected.php"
+  },
+  {
+    "id": 37,
+    "name": "FormItCountryOptions",
+    "category": {
+      "id": 5,
+      "name": "FormIt"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/FormItCountryOptions.php"
+  },
+  {
+    "id": 38,
+    "name": "FormItStateOptions",
+    "category": {
+      "id": 5,
+      "name": "FormIt"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/FormItStateOptions.php"
+  },
+  {
+    "id": 39,
+    "name": "FormItLoadSavedForm",
+    "category": {
+      "id": 5,
+      "name": "FormIt"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/FormItLoadSavedForm.php"
+  },
+  {
+    "id": 40,
+    "name": "AjaxForm",
+    "category": {
+      "id": 6,
+      "name": "AjaxForm"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/AjaxForm.php"
+  },
+  {
+    "id": 41,
+    "name": "phpthumbof",
+    "category": {
+      "id": 7,
+      "name": "pThumb"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/phpthumbof.php"
+  },
+  {
+    "id": 42,
+    "name": "pthumb",
+    "category": {
+      "id": 7,
+      "name": "pThumb"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/pthumb.php"
+  },
+  {
+    "id": 43,
+    "name": "validatePhone",
+    "category": {
+      "id": 0,
+      "name": null
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/validatePhone.php"
+  },
+  {
+    "id": 44,
+    "name": "StercSeoSiteMap",
+    "category": {
+      "id": 21,
+      "name": "StercSEO"
+    },
+    "type": "snippets",
+    "source table": "modx_site_snippets",
+    "output file": "modx-elements/snippets/StercSeoSiteMap.php"
+  },
+  {
+    "id": 1,
+    "name": "pdoTools",
+    "category": {
+      "id": 2,
+      "name": "pdoTools"
+    },
+    "type": "plugins",
+    "source table": "modx_site_plugins",
+    "output file": "modx-elements/plugins/pdoTools.php"
+  },
+  {
+    "id": 2,
+    "name": "MobileDetect",
+    "category": {
+      "id": 3,
+      "name": "MobileDetect"
+    },
+    "type": "plugins",
+    "source table": "modx_site_plugins",
+    "output file": "modx-elements/plugins/MobileDetect.php"
+  },
+  {
+    "id": 3,
+    "name": "MIGX",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "plugins",
+    "source table": "modx_site_plugins",
+    "output file": "modx-elements/plugins/MIGX.php"
+  },
+  {
+    "id": 4,
+    "name": "MIGXquip",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "plugins",
+    "source table": "modx_site_plugins",
+    "output file": "modx-elements/plugins/MIGXquip.php"
+  },
+  {
+    "id": 5,
+    "name": "migxResizeOnUpload",
+    "category": {
+      "id": 4,
+      "name": "MIGX"
+    },
+    "type": "plugins",
+    "source table": "modx_site_plugins",
+    "output file": "modx-elements/plugins/migxResizeOnUpload.php"
+  },
+  {
+    "id": 6,
+    "name": "FormIt",
+    "category": {
+      "id": 5,
+      "name": "FormIt"
+    },
+    "type": "plugins",
+    "source table": "modx_site_plugins",
+    "output file": "modx-elements/plugins/FormIt.php"
+  },
+  {
+    "id": 7,
+    "name": "phpThumbOfCacheManager",
+    "category": {
+      "id": 7,
+      "name": "pThumb"
+    },
+    "type": "plugins",
+    "source table": "modx_site_plugins",
+    "output file": "modx-elements/plugins/phpThumbOfCacheManager.php"
+  },
+  {
+    "id": 8,
+    "name": "Ace",
+    "category": {
+      "id": 0,
+      "name": null
+    },
+    "type": "plugins",
+    "source table": "modx_site_plugins",
+    "output file": "modx-elements/plugins/Ace.php"
+  },
+  {
+    "id": 9,
+    "name": "TinyMCE Rich Text Editor",
+    "category": {
+      "id": 9,
+      "name": "TinyMCE Rich Text Editor"
+    },
+    "type": "plugins",
+    "source table": "modx_site_plugins",
+    "output file": "modx-elements/plugins/TinyMCE Rich Text Editor.php"
+  },
+  {
+    "id": 10,
+    "name": "fileTranslit",
+    "category": {
+      "id": 0,
+      "name": null
+    },
+    "type": "plugins",
+    "source table": "modx_site_plugins",
+    "output file": "modx-elements/plugins/fileTranslit.php"
+  },
+  {
+    "id": 11,
+    "name": "seoPro",
+    "category": {
+      "id": 20,
+      "name": "seoPro"
+    },
+    "type": "plugins",
+    "source table": "modx_site_plugins",
+    "output file": "modx-elements/plugins/seoPro.php"
+  },
+  {
+    "id": 12,
+    "name": "StercSEO",
+    "category": {
+      "id": 21,
+      "name": "StercSEO"
+    },
+    "type": "plugins",
+    "source table": "modx_site_plugins",
+    "output file": "modx-elements/plugins/StercSEO.php"
+  }
+]

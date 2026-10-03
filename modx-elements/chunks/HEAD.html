@@ -1,0 +1,40 @@
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<meta name="viewport" content="width=device-width initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<base href="{$_modx->config.site_url}">
+
+{if $_modx->resource.id == $_modx->config.site_start}
+<link rel="canonical" href="{$_modx->config.site_url}">
+{else}
+<link rel="canonical" href="{$_modx->config.site_url}{$_modx->resource.uri}">
+{/if}
+
+<link rel="stylesheet" href="{'template'|config}style.css?v=010525">
+<link rel="stylesheet" href="{'template'|config}custom.css?v=180926">
+
+{if $_modx->resource.template == 2}
+<link rel="stylesheet" href="/assets/template/landing.css?v=260926-6">
+{/if}
+
+<title>[[*longtitle:notags:default=`[[*pagetitle:notags]]`]] | [[++site_name]]</title>
+<meta name="description" content="[[*description:notags:default=`[[++site_name]] | [[*longtitle:notags:default=`[[*pagetitle:notags]]`]]`]]">
+<meta name="keywords" content="[[+seoPro.keywords:notags:default=`[[*pagetitle:notags]] [[++site_name]]`]]">
+    
+<meta property="og:title" content="[[*longtitle:notags:default=`[[*pagetitle:notags]]`]] | [[++site_name]]"/>
+<meta property="og:description" content="[[*description:notags:default=`[[++site_name]] | [[*longtitle:notags:default=`[[*pagetitle:notags]]`]]`]]"/>
+{*<meta property="og:image" content="[[++site_url]]uploads/og.jpg"/>*}
+{if $_modx->resource.id == $_modx->config.site_start}
+<meta property="og:url" content="{$_modx->config.site_url}" />
+{else}
+<meta property="og:url" content="{$_modx->config.site_url}{$_modx->resource.uri}" />
+{/if}
+<meta property="og:type" content= "website" />
+
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="Bar Story" />
+<link rel="manifest" href="/site.webmanifest" />
+<meta name="yandex-verification" content="8bb3fc5e1fe60da5" />

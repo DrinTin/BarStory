@@ -1,0 +1,10 @@
+<script defer src="{'template'|config}bundle.js?v=060525"></script>
+{*
+<script src="https://player.vimeo.com/api/player.js"></script>
+*}
+{if $_modx->resource['scripts-top']}
+{$_modx->resource['scripts-top']|replace:'\'':'"'|jsToHead}
+{/if}
+{if $_modx->resource['scripts-bottom']}
+{$_modx->resource['scripts-bottom']|replace:'\'':'"'|jsToBottom}
+{/if}
